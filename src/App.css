@@ -1,0 +1,17 @@
+body{
+  text-align: center;
+}
+#first{
+  background-color: gray;
+  height: 15vh;
+}
+.flex{
+  display: grid;
+  grid-template-columns:repeat(3,minmax(0,1fr)) ;
+  column-gap:10px;
+  row-gap: 10px;
+
+}
+.color{
+  background-color:beige ;
+}
